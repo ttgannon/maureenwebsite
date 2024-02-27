@@ -6,21 +6,18 @@ import "../App.css";
 function App() {
   return (
     <>
-      <Navbar
-        bg="danger"
-        data-bs-theme="dark"
-        className="justify-content-center mt-3"
-      >
+      <Navbar data-bs-theme="dark" className="justify-content-center">
         <Nav>
           <Nav.Link href="#home">Home</Nav.Link>
           <Nav.Link href="#artiststatement">Artist Statement</Nav.Link>
           <Nav.Link href="#gallery">Gallery</Nav.Link>
           <Nav.Link href="#exhibitions">Exhibitions</Nav.Link>
           <Nav.Link href="#contact">Contact</Nav.Link>
-          <Nav.Link href="#links">Links</Nav.Link>
+          <Nav.Link href="#Shop">Shop</Nav.Link>
         </Nav>
       </Navbar>
-      <h1>Hello Maureen</h1>
+      <h1>"Quote by Maureen"</h1>
+      <img src="src/assets/maureen_squires.png"></img>
     </>
   );
 }

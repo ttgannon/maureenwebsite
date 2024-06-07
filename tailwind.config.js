@@ -8,7 +8,12 @@ export default {
     extend: {
       colors: {
         customRed: "#65001A",
-      }
+      },
+      screens: {
+        desktop: { min: "1024px" },
+        phone: { max: "1023px" },
+        tablet: { max: "1023px", min: "771px" },
+      },
     },
   },
   plugins: [],

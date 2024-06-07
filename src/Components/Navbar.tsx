@@ -13,7 +13,7 @@ const NavBar = () => {
           id="basic-navbar-nav"
           className="flex justify-center items-center"
         >
-          <Nav>
+          <Nav className="gap-6">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/artiststatement">Artist Statement</Nav.Link>
             <Nav.Link href="/gallery">Gallery</Nav.Link>

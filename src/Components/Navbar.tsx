@@ -15,10 +15,10 @@ const NavBar = () => {
         >
           <Nav className="gap-6">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/artiststatement">Artist Statement</Nav.Link>
+            <Nav.Link href="/statement">Artist Statement</Nav.Link>
             <Nav.Link href="/gallery">Gallery</Nav.Link>
             <Nav.Link href="/exhibitions">Exhibitions</Nav.Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/custom">Custom</Nav.Link>
             <Nav.Link href="/shop">Shop</Nav.Link>
           </Nav>
         </Navbar.Collapse>

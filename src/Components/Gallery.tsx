@@ -7,7 +7,7 @@ export default function Gallery() {
   return (
     <Box
       className="max-w-7xl "
-      //   sx={{ width: 500, height: 450, overflowY: "scroll" }}
+      sx={{ width: 500, height: 450, overflowY: "scroll" }}
     >
       <ImageList variant="masonry" cols={3} gap={8}>
         {itemData.map((item) => (
@@ -27,8 +27,8 @@ export default function Gallery() {
 
 const itemData = [
   {
-    img: "/marsh-magic-maureen-squires.jpg",
-    title: "Marsh Magic",
+    img: "/hafiz.jpeg",
+    title: "Hafiz",
   },
   {
     img: "/maureen-squires-flying-blue.jpeg",
@@ -41,35 +41,36 @@ const itemData = [
   },
 
   {
-    img: "https://images.unsplash.com/photo-1574180045827-681f8a1a9622",
-    title: "Chairs",
+    img: "/copper_lines_3.jpeg",
+    title: "Copper Lines",
   },
   {
     img: "/maureen-squires-moment-in-time.jpeg",
     title: "Moment In Time",
   },
   {
-    img: "https://images.unsplash.com/photo-1530731141654-5993c3016c77",
-    title: "Laptop",
+    img: "/ink_art_maureen.jpeg",
+    title: "Ink Art",
   },
   {
-    img: "https://images.unsplash.com/photo-1481277542470-605612bd2d61",
-    title: "Doors",
+    img: "/field_flowers_maureen.jpeg",
+    title: "Field Flowers",
   },
   {
-    img: "https://images.unsplash.com/photo-1517487881594-2787fef5ebf7",
-    title: "Coffee",
+    img: "/musical_moments.jpeg",
+    title: "Musical Moments",
   },
   {
-    img: "https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee",
-    title: "Storage",
+    img: "/be_the_light_2.jpeg",
+    title: "Be The Light II",
+  },
+
+  {
+    img: "/memories.jpeg",
+    title: "Memories",
   },
   {
-    img: "https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62",
-    title: "Candle",
-  },
-  {
-    img: "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
-    title: "Coffee table",
+    img: "/downstream.jpeg",
+    title: "Downstream",
   },
 ];

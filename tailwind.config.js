@@ -5,6 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    
     extend: {
       colors: {
         customRed: "#65001A",
@@ -14,6 +15,9 @@ export default {
         phone: { max: "1023px" },
         tablet: { max: "1023px", min: "771px" },
       },
+      fontFamily: {
+        optima: ['var(--font-optima)', 'sans-serif']
+      }
     },
   },
   plugins: [],

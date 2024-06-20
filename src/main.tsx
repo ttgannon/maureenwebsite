@@ -8,6 +8,7 @@ import { Shop } from "./Components/Shop.tsx";
 import Custom from "./Components/Custom.tsx";
 import Exhibitions from "./Components/Exhibitions.tsx";
 import Statement from "./Components/Statement.tsx";
+import Gallery from "./Components/Gallery.tsx";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: "/statement",
         element: <Statement />,
+      },
+      {
+        path: "/gallery",
+        element: <Gallery />,
       },
     ],
   },
